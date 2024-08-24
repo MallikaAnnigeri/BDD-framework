@@ -17,6 +17,9 @@ public class OrangeHrmlogin {
 
 	@FindBy(xpath = "//button[text()=' Login ']")
 	private WebElement lgn;
+	
+	@FindBy(css="div.oxd-alert")
+	private WebElement errormsg;
 
 	public OrangeHrmlogin(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -35,6 +38,10 @@ public class OrangeHrmlogin {
 	public WebElement Click() {
 
 		return lgn;
+	}
+	public WebElement alertMsg()
+	{
+		return errormsg;
 	}
 
 }
