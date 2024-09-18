@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T22:16:39 IST" name="Default suite" finished-at="2024-09-13T22:16:50 IST" duration-ms="11178">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T22:16:39 IST" name="Default test" finished-at="2024-09-13T22:16:50 IST" duration-ms="11178">
+      <class name="stepDefination.Orangeloginstepdif">
+        <test-method signature="user_should_open_the_browser_and_enter_the_url()[pri:0, instance:stepDefination.Orangeloginstepdif@68c9133c]" started-at="2024-09-13T22:16:39 IST" name="user_should_open_the_browser_and_enter_the_url" finished-at="2024-09-13T22:16:50 IST" duration-ms="11081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_open_the_browser_and_enter_the_url -->
+      </class> <!-- stepDefination.Orangeloginstepdif -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
